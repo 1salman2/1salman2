@@ -1,0 +1,31 @@
+.experience_container{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    
+}
+
+
+.experience_container {
+    background: var(--color-bg-varient);
+    padding: 2.5rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+.experience_container:hover{
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+.experience_details{
+    display: flex;
+    gap: 1rem;
+}
+@media screen and (max-width:600px) {
+    .experience_container{
+        gap: 1rem;
+        width: 100%;
+        padding: 2rem 1 rem;
+    }
+}

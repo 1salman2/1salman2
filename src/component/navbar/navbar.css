@@ -1,0 +1,23 @@
+.navbar{
+    background: rgba(0,0, 0, 0.5);
+    max-width: max-content;
+    padding: .7rem 2.9rem;
+    z-index: 2;
+    /* left: 45%;
+    bottom: -30%; */
+    display: flex;
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3rem;
+    /* width: 25%; */
+    gap: 0.9rem;
+}
+.navbar a{
+    padding: 0.9rem;
+    font-size: 1.1rem;
+}
+.navbar a:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
